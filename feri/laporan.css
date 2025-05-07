@@ -1,0 +1,101 @@
+body {
+    background-color: #34495e;
+    font-family: Arial, sans-serif;
+    color: #ecf0f1;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #ecf0f1;
+    margin-bottom: 30px;
+}
+
+.form-filter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-filter input,
+.form-filter select,
+.form-filter button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-filter button {
+    background-color: #1abc9c;
+    color: white;
+    cursor: pointer;
+}
+
+.form-filter button:hover {
+    background-color: #16a085;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.actions button {
+    padding: 10px 15px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #16a085;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2c3e50;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid #7f8c8d;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #1abc9c;
+    color: white;
+}
+
+table td {
+    color: #ecf0f1;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-button .btn-back {
+    background-color: #1abc9c;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer-button .btn-back:hover {
+    background-color: #16a085;
+}
